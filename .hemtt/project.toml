@@ -1,0 +1,14 @@
+name = "SOG Gear"
+prefix = "sog_gear"
+author = "SOG"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "sog_gear_version.json",
+    "*.paa"
+]
+
+[version]
+git_hash = 0 # Disabled
