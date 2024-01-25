@@ -4,7 +4,7 @@
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"
 
-#define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
+// #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
@@ -34,10 +34,10 @@
     weapon = #WEAP; \
     count = COUNT; \
 }
-#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
-    name = #ITEM; \
-    count = COUNT; \
-}
+// #define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+//     name = #ITEM; \
+//     count = COUNT; \
+// }
 
 // Inventory
 #define ITEM_2(ITEM) ITEM,ITEM
